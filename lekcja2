@@ -18,3 +18,63 @@ print(s2)
 if s1 > (s2/50):
     print("TRUE")
 else: print("false")
+
+
+
+
+//fibonacci
+
+p=0
+d=1
+for i in range(100):
+    p=p+d
+    d=p-d
+    print(d)
+    
+    
+    
+    
+    
+// dzielniki
+
+x = int(input (""))
+for i in range (2,x):
+    if x%i == 0:
+        print(i)
+        
+      
+      
+      
+  
+ // czy liczba jest pierwsza
+ 
+ x = int(input(""))
+y=0
+if True:
+    for i in range (2,x):
+        if x%i != 0:
+            y = y + 1
+        if y == (x-2):
+            print("liczba jest pierwsza")
+        
+        
+        
+        
+// suma dizlenikow
+
+print("suma dzielnikow")
+x = int(input(""))
+y = 0
+for i in range(1,x+1):
+    if x%i ==0:
+        y = y + i
+print(y)
+
+
+
+//
+
+
+
+
+
