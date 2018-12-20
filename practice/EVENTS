@@ -1,0 +1,20 @@
+import pygame
+
+success = pygame.init()
+print(success)
+
+gameDisplay = pygame.display.set_mode((800,600))
+pygame.display.set_caption('Game')
+
+pygame.display.update() #pygame.display.flip() #FLIPentire at once #UPDATE only the choosen thing, if not put parametrs works as flip
+
+gameExit = False
+while not gameExit:
+    for event in pygame.event.get():
+        print(event)
+#print the event
+  
+
+
+pygame.quit()
+quit()
